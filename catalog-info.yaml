@@ -4,12 +4,12 @@ metadata:
   name: cli_tool
   description: An example of a Backstage application.
   annotations:
-    backstage.io/techdocs-ref: https://github.com/Ryang20718/sample-backstage/blob/main/test.md
+    backstage.io/techdocs-ref: https://github.com/Ryang20718/sample-backstage/blob/main/test_dir/test.md
 spec:
   type: website
   owner: ryan@yamg.com
   lifecycle: experimental
 
-metadata:
-  annotations:
-    backstage.io/techdocs-ref: dir:.
+#metadata:
+#  annotations:
+#    backstage.io/techdocs-ref: dir:.
