@@ -1,0 +1,11 @@
+site_name: 'sample backend'
+docs_dir: 'test_dir'
+
+nav:
+  - Home: test.md
+
+plugins:
+  - techdocs-core
+
+watch:
+- test_dir

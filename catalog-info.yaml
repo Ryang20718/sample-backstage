@@ -3,11 +3,13 @@ kind: Component
 metadata:
   name: cli_tool
   description: An example of a Backstage application.
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
+  annotations:
+    backstage.io/techdocs-ref: https://github.com/Ryang20718/sample-backstage/blob/main/test.md
 spec:
   type: website
   owner: ryan@yamg.com
   lifecycle: experimental
+
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: dir:.
