@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: cli_tool
+  name: sample_backstage_separate_repo
   description: An example of a Backstage application.
   annotations:
     backstage.io/techdocs-ref: dir:.
