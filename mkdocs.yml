@@ -3,8 +3,8 @@ site_name: Root docs
 nav:
   - Home: index.md
   - Subdirectory docs:
-    - Calculator Service: '!include ./sub_module/mkdocs.yml'
-    - Candle Service: '!include ./sub_dir/mkdocs.yml'
+    - Sub Module: '!include ./sub_module/mkdocs.yml'
+    - Sub Dir: '!include ./sub_dir/mkdocs.yml'
 
 plugins:
   - monorepo
