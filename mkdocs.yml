@@ -1,14 +1,11 @@
-site_name: 'sample backend'
-# docs_dir: 'test_dir'
+site_name: Root docs
 
 nav:
-  - 'home': index.md
-  - 'Bug Tracker': '../test_dir/test.md'
-  - '2 Bug Tracker': '../test_dir/test.md'
+  - Home: index.md
+  - Subdirectory docs:
+    - Calculator Service: '!include ./sub_module/mkdocs.yml'
+    - Candle Service: '!include ./sub_dir/mkdocs.yml'
 
 plugins:
+  - monorepo
   - techdocs-core
-
-watch:
-- test_dir
-- test_dir_2

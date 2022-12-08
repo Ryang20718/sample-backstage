@@ -1,0 +1,8 @@
+# Note: Whitespace is not currently supported in this site_name
+site_name: sub-module
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core

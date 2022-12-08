@@ -9,7 +9,16 @@ spec:
   type: website
   owner: ryan@yamg.com
   lifecycle: experimental
-
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: split-monorepo
+spec:
+  type: url
+  targets:
+    - ./test_dir/backstage.yaml
+    - ./test_dir_2/banana-service/backstage.yaml
 #metadata:
 #  annotations:
 #    backstage.io/techdocs-ref: dir:.
