@@ -2,10 +2,12 @@ site_name: 'sample backend'
 docs_dir: 'test_dir'
 
 nav:
-  - Home: test.md
+  - 'Bug Tracker': '/test_dir/'
+  - '2 Bug Tracker': '/test_dir/'
 
 plugins:
   - techdocs-core
 
 watch:
 - test_dir
+- test_dir_2
