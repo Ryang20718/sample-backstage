@@ -1,5 +1,5 @@
 site_name: 'sample backend'
-docs_dir: 'test_dir'
+# docs_dir: 'test_dir'
 
 nav:
   - 'home': index.md
