@@ -3,8 +3,8 @@ site_name: 'sample backend'
 
 nav:
   - 'home': index.md
-  - 'Bug Tracker': '/test_dir/test.md'
-  - '2 Bug Tracker': '/test_dir/test.md'
+  - 'Bug Tracker': './test_dir/test.md'
+  - '2 Bug Tracker': './test_dir/test.md'
 
 plugins:
   - techdocs-core
