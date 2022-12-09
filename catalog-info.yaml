@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: sample_backstage_separate_repo
-  description: An example of a Backstage application.
+  name: mappa
+  description: Mappa repo for map annotations
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
   type: website
-  owner: ryan@yamg.com
+  owner: tools
   lifecycle: experimental

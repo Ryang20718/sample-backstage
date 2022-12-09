@@ -2,9 +2,9 @@ site_name: Root docs
 
 nav:
   - Home: index.md
-  - Subdirectory docs:
-    - Sub Module: '!include ./sub_module/mkdocs.yml'
-    - Sub Dir: '!include ./sub_dir/mkdocs.yml'
+  - Mappa:
+    - Map Annotations: '!include ./map_annotations/mkdocs.yml'
+    - Map Controls: '!include ./map_controls/mkdocs.yml'
 
 plugins:
   - monorepo
