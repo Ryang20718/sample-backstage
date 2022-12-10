@@ -1,10 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: mappa
+  name: Nmappa
   description: Mappa repo for map annotations
   annotations:
     backstage.io/techdocs-ref: dir:.
+  links:
+  - url: https://splunk.com
+    title: Dashboards
+    icon: dashboard
 spec:
   type: website
   owner: tools
