@@ -1,3 +1,4 @@
+---
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
@@ -5,5 +6,5 @@ metadata:
 spec:
   type: url
   targets:
-    - ./map_controls/backstage.yaml
-    - ./map_annotations/backstage.yaml
+    - ./map-controls/backstage.yaml
+    - ./map-annotations/backstage.yaml

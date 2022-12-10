@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pricing-service
+  title: Pricing service
+  description: Component for Pricing service
+  annotations:
+    github.com/project-slug: RoadieHQ/sample-split-monorepo
+    pagerduty.com/integration-key: 08984d6e8057460dd053d4014e66022e
+    backstage.io/techdocs-ref: dir:.
+  tags: 
+    - nodejs
+spec:
+  type: service
+  owner: engineering
+  lifecycle: experimental

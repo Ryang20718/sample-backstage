@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Map Annotations
+  name: map-annotations
   title: Map Annotations
   description: Map Annotations Component
   annotations:
@@ -10,15 +10,6 @@ metadata:
   # links:
   # - url: https://splunk.com
   #   title: Dashboards
-  #   icon: dashboard
-  # - url: https://splunk.com
-  #   title: Test Dashboard
-  #   icon: dashboard
-  # - url: https://splunk.com
-  #   title: Service Cost Dashboard
-  #   icon: dashboard
-  # - url: https://splunk.com
-  #   title: Slack Channel
   #   icon: dashboard
 spec:
   type: service
