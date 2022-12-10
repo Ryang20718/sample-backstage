@@ -5,5 +5,5 @@ metadata:
 spec:
   type: url
   targets:
-    - ./map_controls/backstage.yml
-    - ./map_annotations/backstage.yml
+    - ./map_controls/backstage.yaml
+    - ./map_annotations/backstage.yaml
