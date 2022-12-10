@@ -5,21 +5,21 @@ metadata:
   title: Map Annotations
   description: Map Annotations Component
   annotations:
-    github.com/project-slug: Ryang20718/sample-backstage
+    # github.com/project-slug: Ryang20718/sample-backstage
     backstage.io/techdocs-ref: dir:.
-  links:
-  - url: https://splunk.com
-    title: Dashboards
-    icon: dashboard
-  - url: https://splunk.com
-    title: Test Dashboard
-    icon: dashboard
-  - url: https://splunk.com
-    title: Service Cost Dashboard
-    icon: dashboard
-  - url: https://splunk.com
-    title: Slack Channel
-    icon: dashboard
+  # links:
+  # - url: https://splunk.com
+  #   title: Dashboards
+  #   icon: dashboard
+  # - url: https://splunk.com
+  #   title: Test Dashboard
+  #   icon: dashboard
+  # - url: https://splunk.com
+  #   title: Service Cost Dashboard
+  #   icon: dashboard
+  # - url: https://splunk.com
+  #   title: Slack Channel
+  #   icon: dashboard
 spec:
   type: service
   owner: engineering

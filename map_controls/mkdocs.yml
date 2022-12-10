@@ -1,5 +1,4 @@
-# Note: Whitespace is not currently supported in this site_name
-site_name: sub_dir
+site_name: Map Controls
 
 nav:
   - Home: index.md

@@ -1,5 +1,4 @@
-# Note: Whitespace is not currently supported in this site_name
-site_name: sub-module
+site_name: Map Annotations
 
 nav:
   - Home: index.md
