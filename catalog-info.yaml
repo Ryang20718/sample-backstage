@@ -1,15 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Location
 metadata:
-  name: mappa
-  description: Mappa repo for map annotations
-  annotations:
-    backstage.io/techdocs-ref: dir:.
-  links:
-  - url: https://splunk.com
-    title: Dashboards
-    icon: dashboard
+  name: mappa-monorepo
 spec:
-  type: website
-  owner: tools
-  lifecycle: experimental
+  type: url
+  targets:
+    - ./map_controls/backstage.yml
+    - ./map_annotations/backstage.yml
