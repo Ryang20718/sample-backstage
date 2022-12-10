@@ -24,5 +24,5 @@ metadata:
   - maps
 spec:
   type: service
-  owner: engineering
+  owner: tools
   lifecycle: experimental
