@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Nmappa
+  name: mappa
   description: Mappa repo for map annotations
   annotations:
     backstage.io/techdocs-ref: dir:.
