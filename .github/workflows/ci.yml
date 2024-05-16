@@ -16,11 +16,12 @@ defaults:
 
 jobs:
   lint:
-    runs-on: ubuntu
-    timeout-minutes: ${{ inputs.timeout_minutes || 1 }}
+    runs-on: ubuntu-latest 
+    timeout-minutes: ${{ contains(github.event.pull_request.labels.*.name, 'long ci' && 2 || 1 }}
 
-    - name: sleep
-      run: sleep 120
+    steps:
+      - name: sleep
+        run: sleep 120
 
-    - name: sleep
-      run: sleep 120
+      - name: sleep
+        run: sleep 120
