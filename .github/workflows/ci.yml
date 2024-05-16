@@ -8,16 +8,16 @@ on:
         description: "Timeout minutes"
         type: string
         default: 1
-
+  pull_request:
 
 defaults:
   run:
     shell: bash
 
 jobs:
-  lint:
+  lint: #
     runs-on: ubuntu-latest 
-    timeout-minutes: ${{ contains(github.event.pull_request.labels.*.name, 'long ci' && 2 || 1 }}
+    timeout-minutes: ${{ contains(github.event.pull_request.labels.*.name, 'long ci') && 2 || 1 }}
 
     steps:
       - name: sleep
