@@ -1,0 +1,26 @@
+# schema reference: https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
+
+name: ci
+on:
+  workflow_dispatch:
+    inputs:
+      timeout_minutes:
+        description: "Timeout minutes"
+        type: string
+        default: 1
+
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  lint:
+    runs-on: ubuntu
+    timeout-minutes: ${{ inputs.timeout_minutes || 1 }}
+
+    - name: sleep
+      run: sleep 120
+
+    - name: sleep
+      run: sleep 120
